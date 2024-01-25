@@ -1,0 +1,41 @@
+#movie-title {
+  text-align: center;
+  font-size: 50px; 
+  margin: 0; 
+}
+
+#add-movie {
+  text-align: center;
+    font-size: 40px; 
+  margin-bottom: 20px; 
+  
+}
+
+
+.movie-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 300px; 
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+
+#inputs {
+  display: grid;
+  gap: 10px;
+}
+
+
+#add-movie-btn {
+  margin-top: 10px;
+}
